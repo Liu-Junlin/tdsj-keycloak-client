@@ -1,5 +1,5 @@
 {
-  "name": "tdsj-keycloak-client",
+  "name": "@elanbase/tdsj-keycloak-client",
   "description": "Tdsj Keycloak Client",
   "version": "1.1.7",
   "main": "dist/tdsj-keycloak-client.js",
