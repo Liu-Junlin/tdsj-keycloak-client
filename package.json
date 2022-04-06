@@ -1,7 +1,7 @@
 {
   "name": "@elanbase/tdsj-keycloak-client",
   "description": "Tdsj Keycloak Client",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "main": "dist/tdsj-keycloak-client.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
@@ -12,7 +12,7 @@
     "email": "liujunlin@outlook.com"
   },
   "dependencies": {
-    "keycloak-js": "^15.0.2"
+    "keycloak-js": "^16.1.1"
   },
   "devDependencies": {
     "babel-core": "^6.22.1",

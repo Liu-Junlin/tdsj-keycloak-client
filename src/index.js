@@ -37,10 +37,10 @@ const KeycloakUtil = {
                 } else {
                     console.debug('Token is still valid. Exp:' + new Date(keycloakInstance.tokenParsed.exp * 1000));
                 }
-            }).catch(function () {
-            console.error('Failed to refresh the token, or the session has expired');
+            }).catch(function (err) {
+            console.error('Failed to refresh the token, or the session has expired', err);
             if (failCallback) {
-                failCallback();
+                failCallback(err);
             }
         });
     },
